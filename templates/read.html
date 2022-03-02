@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<h2>Read all the messages</h2>
+<p>Expecting a message from someone?</p>
+    {% for doc in docs %}
+    <div id='message_all'>
+        <p id='names'>From <b>{{doc.name}}</b> </p>
+        <p id='names'>To <b>{{doc.to}}</b></p>
+        <p id='message'>
+            {{ doc.message }}
+        </p>
+        <p class="post">
+            Posted at {{ doc.created_at.strftime("%H:%M on %d %B %Y") }}
+            </br>
+            <a id='edit_button' href="{{ url_for('edit',mongoid=doc._id)}}">Edit</a> <a id='delete_button' href="{{ url_for('delete',mongoid=doc._id)}}">Delete</a>
+    </div>
+    {%endfor%}
+</p>
+{% endblock %}

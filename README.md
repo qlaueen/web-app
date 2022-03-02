@@ -1,0 +1,4 @@
+# Flask-MongoDB Web App
+## Elegant Mail
+The app I created is called Elegant Mail. It is inspired by "Correio Elegante", a tradition in my country Brazil. The main purpose of the Correio Elegante is to send someone a letter, either anonymously or signed, showing how much you care about them. Or, in other cases, declaring your love for someone. Usually there is someone who will deliver this letter for you so you don't have to do it yourself. 
+With that being said, the Elegant Mail app allows people to send their love letters virtually. It asks the user if they want to send an anonymous or signed letter, and publishes it in the website. The app can be accessed [here](https://i6.cims.nyu.edu/~lml9279/web-app-qlaueen/flask.cgi/)

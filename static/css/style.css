@@ -1,0 +1,69 @@
+/* 
+Color palette:
+French pink - #FE6D94
+Turquoise green - #ADD2B3
+Salmon pink - #F2919E
+Light orange - #FFDEB8
+*/
+
+body {
+  background-image: url('https://i.pinimg.com/originals/17/49/e1/1749e1b63381ae539abd52d821bf6f86.png');
+}
+header, footer, main {
+  padding: 20px;
+}
+
+.container {
+  background-color: #FFDEB8;
+  border-radius: 30px;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+p.post {
+  font-size: 12px;
+}
+
+h1 {
+  color: #FE6D94;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  padding: 1em;
+  background-color: #ADD2B3;
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.nav-item {
+  padding: 1%;
+  color: white;
+}
+.nav-item:hover {
+  color: #FE6D94;
+  font-weight: bold;
+  padding: 1%;
+}
+.nav-item:visited {
+  color:white;
+}
+
+#message_all {
+  background-color: #F2919E;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 10px;
+}
+#message {
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 20px;
+  border-radius: 30px;
+}
+h2 {
+  text-align: center;
+}
